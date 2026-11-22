@@ -1,0 +1,58 @@
+name: Build TasaHoy iOS (.ipa)
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-ios:
+    name: Compile TasaHoy on Xcode 27 Runner
+    runs-on: xcode-27
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: |
+          if [ -d /Applications/Xcode.app/Contents/Developer ]; then
+            sudo xcode-select -s /Applications/Xcode.app/Contents/Developer
+          fi
+          xcodebuild -version
+
+      - name: Build TasaHoy (Release - iOS Device)
+        run: |
+          xcodebuild clean build \
+            -project TasaHoy.xcodeproj \
+            -scheme TasaHoy \
+            -configuration Release \
+            -sdk iphoneos \
+            -derivedDataPath build \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Package Unsigned .ipa for Sideloading (AltKeeper / SideStore / Sideloadly)
+        run: |
+          mkdir -p Payload
+          cp -r build/Build/Products/Release-iphoneos/TasaHoy.app Payload/
+          zip -r TasaHoy-Unsigned.ipa Payload
+
+      - name: Upload TasaHoy.ipa Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: TasaHoy-iOS-IPA
+          path: TasaHoy-Unsigned.ipa
+          retention-days: 30
+
+      - name: Publish Unsigned .ipa to Latest Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: TasaHoy iOS (Latest Build)
+          body: Latest unsigned iOS build compiled on Xcode 27 for sideloading via AltKeeper / SideStore / Sideloadly.
+          files: TasaHoy-Unsigned.ipa
+          make_latest: true

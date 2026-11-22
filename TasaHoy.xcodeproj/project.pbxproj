@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000012700000000000001 /* TasaHoyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000012700000000000001 /* TasaHoyApp.swift */; };
+		A10000022700000000000001 /* PaymentProfileModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000022700000000000001 /* PaymentProfileModels.swift */; };
+		A10000032700000000000001 /* RateModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000032700000000000001 /* RateModels.swift */; };
+		A10000042700000000000001 /* MathExpressionEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000042700000000000001 /* MathExpressionEvaluator.swift */; };
+		A10000052700000000000001 /* RateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000052700000000000001 /* RateService.swift */; };
+		A10000062700000000000001 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000062700000000000001 /* L10n.swift */; };
+		A10000072700000000000001 /* NumberFormatHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000072700000000000001 /* NumberFormatHelper.swift */; };
+		A10000082700000000000001 /* TasaTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000082700000000000001 /* TasaTheme.swift */; };
+		A10000092700000000000001 /* TasaHoyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000092700000000000001 /* TasaHoyViewModel.swift */; };
+		A10000102700000000000001 /* ActivityShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000102700000000000001 /* ActivityShareSheet.swift */; };
+		A10000112700000000000001 /* AddCurrencySheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000112700000000000001 /* AddCurrencySheet.swift */; };
+		A10000122700000000000001 /* CurrencyPickerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000122700000000000001 /* CurrencyPickerSheet.swift */; };
+		A10000132700000000000001 /* PriceScannerSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000132700000000000001 /* PriceScannerSheet.swift */; };
+		A10000142700000000000001 /* ShareRateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000142700000000000001 /* ShareRateCardView.swift */; };
+		A10000152700000000000001 /* TasaMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000152700000000000001 /* TasaMarkView.swift */; };
+		A10000162700000000000001 /* ConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000162700000000000001 /* ConverterView.swift */; };
+		A10000172700000000000001 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000172700000000000001 /* MainTabView.swift */; };
+		A10000182700000000000001 /* PaymentProfilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000182700000000000001 /* PaymentProfilesView.swift */; };
+		A10000192700000000000001 /* RatesBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000192700000000000001 /* RatesBoardView.swift */; };
+		A10000202700000000000001 /* SettingsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000202700000000000001 /* SettingsSheet.swift */; };
+		A10000212700000000000001 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000212700000000000001 /* ThemePickerView.swift */; };
+		A10009032700000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20009032700000000000001 /* Assets.xcassets */; };
+		A10009042700000000000001 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = A20009042700000000000001 /* AppIcon.icon */; };
+		A10009052700000000000001 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A20009052700000000000001 /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000012700000000000001 /* TasaHoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasaHoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000012700000000000001 /* TasaHoyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/App/TasaHoyApp.swift; sourceTree = "<group>"; };
+		A20000022700000000000001 /* PaymentProfileModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Models/PaymentProfileModels.swift; sourceTree = "<group>"; };
+		A20000032700000000000001 /* RateModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Models/RateModels.swift; sourceTree = "<group>"; };
+		A20000042700000000000001 /* MathExpressionEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Services/MathExpressionEvaluator.swift; sourceTree = "<group>"; };
+		A20000052700000000000001 /* RateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Services/RateService.swift; sourceTree = "<group>"; };
+		A20000062700000000000001 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Utilities/L10n.swift; sourceTree = "<group>"; };
+		A20000072700000000000001 /* NumberFormatHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Utilities/NumberFormatHelper.swift; sourceTree = "<group>"; };
+		A20000082700000000000001 /* TasaTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Utilities/TasaTheme.swift; sourceTree = "<group>"; };
+		A20000092700000000000001 /* TasaHoyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/ViewModels/TasaHoyViewModel.swift; sourceTree = "<group>"; };
+		A20000102700000000000001 /* ActivityShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Views/Components/ActivityShareSheet.swift; sourceTree = "<group>"; };
+		A20000112700000000000001 /* AddCurrencySheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Views/Components/AddCurrencySheet.swift; sourceTree = "<group>"; };
+		A20000122700000000000001 /* CurrencyPickerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Views/Components/CurrencyPickerSheet.swift; sourceTree = "<group>"; };
+		A20000132700000000000001 /* PriceScannerSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Views/Components/PriceScannerSheet.swift; sourceTree = "<group>"; };
+		A20000142700000000000001 /* ShareRateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Views/Components/ShareRateCardView.swift; sourceTree = "<group>"; };
+		A20000152700000000000001 /* TasaMarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Views/Components/TasaMarkView.swift; sourceTree = "<group>"; };
+		A20000162700000000000001 /* ConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Views/ConverterView.swift; sourceTree = "<group>"; };
+		A20000172700000000000001 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Views/MainTabView.swift; sourceTree = "<group>"; };
+		A20000182700000000000001 /* PaymentProfilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Views/PaymentProfilesView.swift; sourceTree = "<group>"; };
+		A20000192700000000000001 /* RatesBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Views/RatesBoardView.swift; sourceTree = "<group>"; };
+		A20000202700000000000001 /* SettingsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Views/Settings/SettingsSheet.swift; sourceTree = "<group>"; };
+		A20000212700000000000001 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasaHoy/Views/Settings/ThemePickerView.swift; sourceTree = "<group>"; };
+		A20009012700000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = TasaHoy/Resources/Info.plist; sourceTree = "<group>"; };
+		A20009022700000000000001 /* TasaHoy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TasaHoy/Resources/TasaHoy.entitlements; sourceTree = "<group>"; };
+		A20009032700000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TasaHoy/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		A20009042700000000000001 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = TasaHoy/Resources/AppIcon.icon; sourceTree = "<group>"; };
+		A20009052700000000000001 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = TasaHoy/Resources/Localizable.xcstrings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A30000012700000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A20000012700000000000001 /* TasaHoyApp.swift */,
+				A20000022700000000000001 /* PaymentProfileModels.swift */,
+				A20000032700000000000001 /* RateModels.swift */,
+				A20000042700000000000001 /* MathExpressionEvaluator.swift */,
+				A20000052700000000000001 /* RateService.swift */,
+				A20000062700000000000001 /* L10n.swift */,
+				A20000072700000000000001 /* NumberFormatHelper.swift */,
+				A20000082700000000000001 /* TasaTheme.swift */,
+				A20000092700000000000001 /* TasaHoyViewModel.swift */,
+				A20000102700000000000001 /* ActivityShareSheet.swift */,
+				A20000112700000000000001 /* AddCurrencySheet.swift */,
+				A20000122700000000000001 /* CurrencyPickerSheet.swift */,
+				A20000132700000000000001 /* PriceScannerSheet.swift */,
+				A20000142700000000000001 /* ShareRateCardView.swift */,
+				A20000152700000000000001 /* TasaMarkView.swift */,
+				A20000162700000000000001 /* ConverterView.swift */,
+				A20000172700000000000001 /* MainTabView.swift */,
+				A20000182700000000000001 /* PaymentProfilesView.swift */,
+				A20000192700000000000001 /* RatesBoardView.swift */,
+				A20000202700000000000001 /* SettingsSheet.swift */,
+				A20000212700000000000001 /* ThemePickerView.swift */,
+				A20009012700000000000001 /* Info.plist */,
+				A20009022700000000000001 /* TasaHoy.entitlements */,
+				A20009032700000000000001 /* Assets.xcassets */,
+				A20009042700000000000001 /* AppIcon.icon */,
+				A20009052700000000000001 /* Localizable.xcstrings */,
+				A30000022700000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A30000022700000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000012700000000000001 /* TasaHoy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A40000012700000000000001 /* TasaHoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A60000022700000000000001 /* Build configuration list for PBXNativeTarget "TasaHoy" */;
+			buildPhases = (
+				A50000012700000000000001 /* Sources */,
+				A50000022700000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TasaHoy;
+			productName = TasaHoy;
+			productReference = A00000012700000000000001 /* TasaHoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A70000012700000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = A60000012700000000000001 /* Build configuration list for PBXProject "TasaHoy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = es;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				es,
+				en,
+				"pt-BR",
+				fr,
+				de,
+				it,
+				ru,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = A30000012700000000000001;
+			productRefGroup = A30000022700000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40000012700000000000001 /* TasaHoy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50000022700000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10009032700000000000001 /* Assets.xcassets in Resources */,
+				A10009042700000000000001 /* AppIcon.icon in Resources */,
+				A10009052700000000000001 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50000012700000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000012700000000000001 /* TasaHoyApp.swift in Sources */,
+				A10000022700000000000001 /* PaymentProfileModels.swift in Sources */,
+				A10000032700000000000001 /* RateModels.swift in Sources */,
+				A10000042700000000000001 /* MathExpressionEvaluator.swift in Sources */,
+				A10000052700000000000001 /* RateService.swift in Sources */,
+				A10000062700000000000001 /* L10n.swift in Sources */,
+				A10000072700000000000001 /* NumberFormatHelper.swift in Sources */,
+				A10000082700000000000001 /* TasaTheme.swift in Sources */,
+				A10000092700000000000001 /* TasaHoyViewModel.swift in Sources */,
+				A10000102700000000000001 /* ActivityShareSheet.swift in Sources */,
+				A10000112700000000000001 /* AddCurrencySheet.swift in Sources */,
+				A10000122700000000000001 /* CurrencyPickerSheet.swift in Sources */,
+				A10000132700000000000001 /* PriceScannerSheet.swift in Sources */,
+				A10000142700000000000001 /* ShareRateCardView.swift in Sources */,
+				A10000152700000000000001 /* TasaMarkView.swift in Sources */,
+				A10000162700000000000001 /* ConverterView.swift in Sources */,
+				A10000172700000000000001 /* MainTabView.swift in Sources */,
+				A10000182700000000000001 /* PaymentProfilesView.swift in Sources */,
+				A10000192700000000000001 /* RatesBoardView.swift in Sources */,
+				A10000202700000000000001 /* SettingsSheet.swift in Sources */,
+				A10000212700000000000001 /* ThemePickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A60000032700000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.10;
+			};
+			name = Debug;
+		};
+		A60000042700000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.10;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A60000052700000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TasaHoy/Resources/TasaHoy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1001;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TasaHoy/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasahoy.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A60000062700000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TasaHoy/Resources/TasaHoy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1001;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TasaHoy/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tasahoy.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.10;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A60000012700000000000001 /* Build configuration list for PBXProject "TasaHoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60000032700000000000001 /* Debug */,
+				A60000042700000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60000022700000000000001 /* Build configuration list for PBXNativeTarget "TasaHoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A60000052700000000000001 /* Debug */,
+				A60000062700000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A70000012700000000000001 /* Project object */;
+}
